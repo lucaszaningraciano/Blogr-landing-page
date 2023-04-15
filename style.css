@@ -1,0 +1,474 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vh;
+  height: 100vh;
+  font-family: "Overpass", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+
+header {
+  max-width: 2100px;
+  width: 100vw;
+  height: 33rem;
+  background: url(./images/bg-pattern-intro-desktop.svg),
+    linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  background-repeat: no-repeat, no-repeat;
+  background-position: left;
+  padding: 3rem 8rem;
+  border-radius: 0 0 0 130px;
+}
+.header-nav {
+  max-width: 1700px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav .nav-left a {
+  position: relative;
+  bottom: 1rem;
+  left: 4rem;
+}
+
+.nav-left a {
+  margin-left: 2rem;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nav-left a:hover {
+  text-decoration: underline;
+}
+
+.arrow {
+  filter: brightness(200%);
+  margin-left: 0.2rem;
+}
+
+.arrow-up {
+  filter: invert(1);
+  width: 0.8rem;
+}
+
+.nav-right a {
+  margin-right: 2rem;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nav-right button {
+  width: 6.7rem;
+  height: 2.3rem;
+  color: hsl(353, 100%, 62%);
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 25px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-right button:hover {
+  background-color: hsl(355, 100%, 74%);
+  color: hsl(0, 0%, 100%);
+}
+
+.header-text {
+  text-align: center;
+  justify-content: center;
+  margin-top: 9rem;
+}
+
+.header-text h2 {
+  color: hsl(0, 0%, 100%);
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.header-text p {
+  color: hsl(0, 0%, 100%);
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  opacity: 0.7;
+}
+
+.header-footer {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.header-footer .btn1 {
+  width: 6.7rem;
+  height: 2.3rem;
+  color: hsl(353, 100%, 62%);
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 25px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.header-footer .btn1:hover {
+  background-color: hsl(355, 100%, 74%);
+  color: hsl(0, 0%, 100%);
+}
+
+.header-footer .btn2 {
+  width: 6.7rem;
+  height: 2.3rem;
+  color: hsl(0, 0%, 100%);
+  background-color: transparent;
+  border-radius: 25px;
+  border: 1px solid hsl(0, 0%, 100%);
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 0.8rem;
+  transition: 0.3s ease-in-out;
+}
+
+.header-footer .btn2:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(355, 100%, 74%);
+}
+
+.section-1 {
+  max-width: 2100px;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 7rem;
+  overflow: hidden;
+}
+
+.section-1 h3 {
+  text-align: center;
+  color: hsl(237, 23%, 32%);
+  font-size: 2.5rem;
+  font-family: "Overpass", sans-serif;
+  margin-top: 3rem;
+}
+
+.section-1-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.section-1-left {
+  padding: 8rem;
+}
+
+.section-1-left-text-1 h4 {
+  color: hsl(237, 23%, 32%);
+  font-size: 1.9rem;
+  font-family: "Overpass", sans-serif;
+}
+
+.section-1-left-text-1 p {
+  color: hsl(207, 13%, 34%);
+  font-family: "Overpass", sans-serif;
+  margin-top: 2rem;
+  line-height: 1.5rem;
+  width: 70%;
+}
+
+.section-1-left-text-2 {
+  margin-top: 4rem;
+}
+
+.section-1-left-text-2 h4 {
+  color: hsl(237, 23%, 32%);
+  font-size: 1.9rem;
+  font-family: "Overpass", sans-serif;
+}
+
+.section-1-left-text-2 p {
+  color: hsl(207, 13%, 34%);
+  font-family: "Overpass", sans-serif;
+  margin-top: 2rem;
+  line-height: 1.5rem;
+  width: 70%;
+}
+
+.section-1-right {
+  align-items: center;
+  justify-content: center;
+}
+
+.section-1-right img {
+  width: 60rem;
+}
+
+.section-2 {
+  max-width: 2100px;
+  width: 100vw;
+  max-height: 50vh;
+  background: hsl(237, 23%, 32%);
+  background-image: url(./images/bg-pattern-circles.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 130px 0 160px;
+  padding: 5rem;
+}
+
+.section-2-left img {
+  width: 45rem;
+  position: relative;
+  right: 13rem;
+}
+
+.section-2-right {
+  max-width: 30%;
+}
+
+.section-2-right h3 {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.9rem;
+  font-family: "Overpass", sans-serif;
+}
+
+.section-2-right p {
+  color: hsl(0, 0%, 100%);
+  font-size: 0.9rem;
+  font-family: "Overpass", sans-serif;
+  margin-top: 2rem;
+  line-height: 1.5rem;
+  width: 85%;
+  opacity: 0.7;
+}
+
+.section-3 {
+  max-width: 2100px;
+  width: 100vw;
+  max-height: 100rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-3-left img {
+  width: 60rem;
+}
+
+.section-3-right {
+  margin-left: 5rem;
+}
+
+.section-3-right-texts-1 h4 {
+  color: hsl(237, 23%, 32%);
+  font-size: 1.3rem;
+  font-family: "Overpass", sans-serif;
+}
+
+.section-3-right-texts-1 p {
+  color: hsl(207, 13%, 34%);
+  font-family: "Overpass", sans-serif;
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+  line-height: 1.5rem;
+  width: 50%;
+}
+
+.section-3-right-texts-2 h4 {
+  color: hsl(237, 23%, 32%);
+  font-size: 1.3rem;
+  font-family: "Overpass", sans-serif;
+  margin-top: 2rem;
+}
+
+.section-3-right-texts-2 p {
+  color: hsl(207, 13%, 34%);
+  font-family: "Overpass", sans-serif;
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+  line-height: 1.5rem;
+  width: 50%;
+}
+
+.footer {
+  max-width: 2100px;
+  width: 100vw;
+  max-height: 100rem;
+  height: 40vh;
+  background-color: hsl(240, 10%, 16%);
+  border-radius: 0 140px 0 0;
+  padding: 5rem;
+}
+
+.footer-menu {
+  height: 20rem;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.footer-menu img {
+  width: 5rem;
+  height: 3rem;
+}
+
+.product-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-menu-1 a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+.product-menu-1 a:hover {
+  text-decoration: underline;
+}
+
+.product-menu-2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+
+.product-menu-2 a {
+  text-decoration: none;
+  color: hsl(240, 2%, 79%);
+  margin-top: 1rem;
+}
+
+.product-menu-2 a:hover {
+  text-decoration: underline;
+}
+
+.company-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-menu-1 a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+.company-menu-1 a:hover {
+  text-decoration: underline;
+}
+.company-menu-2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+
+.company-menu-2 a {
+  text-decoration: none;
+  color: hsl(240, 2%, 79%);
+  margin-top: 1rem;
+}
+
+.company-menu-2 a:hover {
+  text-decoration: underline;
+}
+
+.connect-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.connect-menu-1 a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+.connect-menu-1 a:hover {
+  text-decoration: underline;
+}
+.connect-menu-2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+
+.connect-menu-2 a {
+  text-decoration: none;
+  color: hsl(240, 2%, 79%);
+  margin-top: 1rem;
+}
+
+.connect-menu-2 a:hover {
+  text-decoration: underline;
+}
+
+.open-menu {
+  max-width: 40rem;
+  width: 9rem;
+  max-height: 40rem;
+  height: 8rem;
+  background-color: hsl(0, 0%, 100%);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  flex-direction: column;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  top: 6rem;
+  left: 34rem;
+  display: none;
+  transition: 0.3s ease-in-out;
+}
+
+.open-menu a {
+  display: flex;
+  margin-top: 0.8rem;
+  text-decoration: none;
+
+  color: hsl(208, 49%, 24%);
+  transition: 0.3s ease-in-out;
+}
+
+.open-menu a:hover {
+  color: hsl(240, 10%, 16%);
+  font-weight: bold;
+}
+
+#new-menu {
+  display: none;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+#arrow-up {
+  position: absolute;
+  right: 0.8rem;
+  top: 0.3rem;
+  display: none;
+}
+
+#arrow-down {
+  position: absolute;
+  left: 4.2rem;
+  bottom: 0.2rem;
+}
+
+.menu-responsive {
+  display: none;
+}

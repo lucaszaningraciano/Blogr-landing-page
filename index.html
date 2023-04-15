@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+    <script
+      src="https://kit.fontawesome.com/cfdc4dc9e0.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Blogr landing page</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="header-nav">
+          <div id="nav-left" class="nav-left">
+            <img src="./images/logo.svg" alt="logo" />
+
+            <a href="#"
+              >Product <img class="arrow" src="./images/icon-arrow-dark.svg"
+            /></a>
+            <a href="#"
+              >Company <img class="arrow" src="./images/icon-arrow-dark.svg"
+            /></a>
+            <a id="connect-menu" href="#" onclick="openMenu()"
+              >Connect
+              <img
+                id="arrow-down"
+                class="arrow"
+                src="./images/icon-arrow-dark.svg"
+                alt="arrow-down"
+              />
+              <a href="#"
+                ><img
+                  id="arrow-up"
+                  class="arrow-up"
+                  src="./images/chevron-up-solid.svg"
+                  alt="arrow-up"
+                  onclick="closeMenu()"
+              /></a>
+            </a>
+          </div>
+          <!--nav-left-->
+
+          <div class="nav-right">
+            <a href="#">Login</a>
+            <button>Sign Up</button>
+          </div>
+          <!--nav-right-->
+        </div>
+        <!--header-nav-->
+
+        <div class="header-text">
+          <h2>A modern publishing platform</h2>
+          <p>Grow your audience and build your online brand</p>
+        </div>
+        <!--header-text-->
+
+        <div class="header-footer">
+          <button class="btn1">Start for Free</button>
+          <button class="btn2">Learn More</button>
+        </div>
+        <!--header-footer-->
+      </div>
+      <!--header-container-->
+    </header>
+    <section>
+      <div class="section-1">
+        <h3>Designed for the future</h3>
+        <div class="section-1-container">
+          <div class="section-1-left">
+            <div class="section-1-left-text-1">
+              <h4>Introducing an extensible editor</h4>
+              <p>
+                Blogr features an exceedingly intuitive interface which lets you
+                focus on one thing: creating content. The editor supports
+                management of multiple blogs and allows easy manipulation of
+                embeds such as images, videos, and Markdown. Extensibility with
+                plugins and themes provide easy ways to add functionality or
+                change the looks of a blog.
+              </p>
+            </div>
+            <!--section-1-left-text-1-->
+            <div class="section-1-left-text-2">
+              <h4>Robust content management</h4>
+              <p>
+                Flexible content management enables users to easily move through
+                posts. Increase the usability of your blog by adding customized
+                categories, sections, format, or flow. With this functionality,
+                you're in full control.
+              </p>
+            </div>
+            <!--section-1-left-text-2-->
+          </div>
+          <!--section-1-left-->
+          <div class="section-1-right">
+            <img
+              src="./images/illustration-editor-desktop.svg"
+              alt="editor desktop"
+            />
+          </div>
+          <!--section-1-right-->
+        </div>
+        <!--section-1-container-->
+      </div>
+      <!--section-1-->
+    </section>
+    <section>
+      <div class="section-2">
+        <div class="section-2-left">
+          <img src="./images/illustration-phones.svg" alt="phones" />
+        </div>
+        <!--section-2-left-->
+
+        <div class="section-2-right">
+          <h3>State of the Art Infrastructure</h3>
+          <p>
+            With reliability and speed in mind, worldwide data centers provide
+            the backbone for ultra-fast connectivity. This ensures your site
+            will load instantly, no matter where your readers are, keeping your
+            site competitive.
+          </p>
+        </div>
+        <!--section-2-right-->
+      </div>
+      <!--section-2-->
+    </section>
+
+    <section>
+      <div class="section-3">
+        <div class="section-3-left">
+          <img src="./images/illustration-laptop-desktop.svg" alt="laptop" />
+        </div>
+        <!--section-3-left-->
+
+        <div class="section-3-right">
+          <div class="section-3-right-texts">
+            <div class="section-3-right-texts-1">
+              <h4>Free, open, simple</h4>
+              <p>
+                Blogr is a free and open source application backed by a large
+                community of helpful developers. It supports features such as
+                code syntax highlighting, RSS feeds, social media integration,
+                third-party commenting tools, and works seamlessly with Google
+                Analytics. The architecture is clean and is relatively easy to
+                learn.
+              </p>
+            </div>
+            <!--section-3-right-texts-1-->
+
+            <div class="section-3-right-texts-2">
+              <h4>Powerful tooling</h4>
+              <p>
+                Batteries included. We built a simple and straightforward CLI
+                tool that makes customization and deployment a breeze, but
+                capable of producing even the most complicated sites.
+              </p>
+            </div>
+            <!--section-3-right-texts-2-->
+          </div>
+          <!--section-3-right-texts-->
+        </div>
+        <!--section-3-right-->
+      </div>
+      <!--section-3-->
+    </section>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-menu">
+          <img src="./images/logo.svg" alt="logo" />
+          <div class="product-menu">
+            <div class="product-menu-1">
+              <a href="#">Product</a>
+            </div>
+            <!--product-menu-1-->
+            <div class="product-menu-2">
+              <a href="#">Overview</a>
+              <a href="#">Pricing</a>
+              <a href="#">Marketplace</a>
+              <a href="#">Features</a>
+              <a href="#">Integrations</a>
+            </div>
+            <!--product-menu-2-->
+          </div>
+          <!--product-menu-->
+          <div class="company-menu">
+            <div class="company-menu-1">
+              <a href="#">Company</a>
+            </div>
+            <!--company-menu-1-->
+
+            <div class="company-menu-2">
+              <a href="#">About</a>
+              <a href="#">Team</a>
+              <a href="#">Blog</a>
+              <a href="#">Careers</a>
+            </div>
+            <!--company-menu-2-->
+          </div>
+          <!--company-menu-->
+
+          <div class="connect-menu">
+            <div class="connect-menu-1">
+              <a href="#">Connect</a>
+            </div>
+            <!--connect-menu-1-->
+
+            <div class="connect-menu-2">
+              <a href="#">Contact</a>
+              <a href="#">Newsletter</a>
+              <a href="#">Linkedin</a>
+            </div>
+            <!--connect-menu-2-->
+          </div>
+          <!--connect-menu-->
+        </div>
+        <!--footer-menu-->
+      </div>
+      <!--footer-->
+    </footer>
+    <div id="new-menu" class="open-menu">
+      <a id="contact-btn" href="#">Contact</a>
+      <a href="#">Newsletter</a>
+      <a id="linkedin-btn" href="#">Linkedin</a>
+    </div>
+    <!--open-menu-->
+
+    <div class="menu-section">
+      <div class="menu-responsive">
+        <a href="#"
+          >Product<img src="./images/icon-arrow-dark.svg" alt="arrow-dark" />
+        </a>
+        <a href="#"
+          >Company<img
+            src="./images/icon-arrow-dark.svg"
+            alt="arrow-down-mobile"
+          />
+        </a>
+        <a href="#"
+          >Connect<img
+            id="arrowDownMobile"
+            src="./images/icon-arrow-dark.svg"
+            alt="arrow-dark"
+            onclick="openMenuMobile()"
+          /><img
+            id="arrowUpMobile"
+            src="./images/icon-arrow-dark.svg"
+            alt="arrow-up-mobile"
+            onclick="closeMenuMobile()"
+          />
+        </a>
+        <div id="connect-menu-responsive" class="connect-menu-responsive">
+          <a href="#">Contact</a>
+          <a href="#">Newsletter</a>
+          <a href="#">Linkedin</a>
+        </div>
+        <!--connect-menu-responsive-->
+        <hr />
+        <a href="#">Login</a>
+        <button>Sign Up</button>
+      </div>
+      <!--menu-responsive-->
+
+      <div class="menu-toggle">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+      </div>
+      <!--menu-toggle-->
+    </div>
+    <!--menu-section on-->
+
+    <script src="./script.js"></script>
+  </body>
+</html>

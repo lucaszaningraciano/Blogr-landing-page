@@ -1,0 +1,410 @@
+@media (max-width: 375px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* HEADER START */
+
+  header {
+    max-width: 375px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: none;
+  }
+
+  .nav-left a {
+    display: none;
+  }
+
+  .nav-left img {
+    width: 6rem;
+    position: absolute;
+    top: 1;
+    left: 1rem;
+  }
+
+  .nav-right {
+    display: none;
+  }
+
+  .header-text {
+    text-align: center;
+    max-width: 270px;
+    position: relative;
+    right: 3rem;
+    bottom: 2rem;
+  }
+
+  .header-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .header-text p {
+    font-size: 1.2rem;
+  }
+
+  .header-footer {
+    max-width: 270px;
+
+    position: relative;
+    right: 3rem;
+  }
+
+  .header-footer button {
+    width: 10rem;
+  }
+
+  #new-menu {
+    display: none;
+  }
+
+  /* HEADER FINISH */
+
+  /* SECTION 1 START */
+
+  .section-1 {
+    max-width: 375px;
+    width: 100%;
+    display: flex;
+    overflow: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section-1 h3 {
+    width: 200%;
+    font-size: 1.7rem;
+  }
+
+  .section-1-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-1-right {
+    order: 1;
+  }
+
+  .section-1-right img {
+    width: 22rem;
+    align-self: center;
+    margin-top: 2rem;
+  }
+
+  .section-1-left {
+    order: 2;
+  }
+
+  .section-1-left {
+    max-width: 375px;
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .section-1-left-text-1 {
+    max-width: 375px;
+    width: 100vh;
+    height: 100vh;
+    position: relative;
+    left: 3rem;
+  }
+
+  .section-1-left-text-1 h4 {
+    width: 70%;
+  }
+
+  .section-1-left-text-1 p {
+    font-size: 1.1rem;
+  }
+
+  .section-1-left-text-2 {
+    max-width: 375px;
+    width: 100vh;
+    height: 100vh;
+    position: relative;
+    left: 3rem;
+  }
+
+  .section-1-left-text-2 h4 {
+    width: 70%;
+  }
+
+  .section-1-left-text-2 p {
+    font-size: 1.1rem;
+  }
+
+  /* SECTION 1 END */
+
+  /* SECTION 2 START */
+
+  .section-2 {
+    max-width: 375px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+
+  .section-2-left img {
+    width: 150%;
+    position: relative;
+    right: 3rem;
+    bottom: 5rem;
+  }
+
+  .section-2-right {
+    max-width: 375px;
+    width: 100vh;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    bottom: 5rem;
+  }
+
+  .section-2-right h3 {
+    width: 90%;
+  }
+
+  .section-2-right p {
+    width: 70%;
+    margin-bottom: 3rem;
+  }
+
+  /* SECTION 2 END */
+
+  /* SECTION 3 START */
+
+  .section-3 {
+    max-width: 375px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+  }
+
+  .section-3-left img {
+    width: 100%;
+    position: relative;
+    left: 2rem;
+  }
+
+  .section-3-right-texts {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .section-3-right-texts h4 {
+    font-size: 1.5rem;
+    position: relative;
+    right: 2rem;
+  }
+
+  .section-3-right-texts p {
+    font-size: 1rem;
+    width: 100%;
+    position: relative;
+    right: 2rem;
+  }
+
+  /* SECTION 3 END */
+
+  /* FOOTER START */
+
+  .footer {
+    max-width: 375px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product-menu {
+    margin-top: 2rem;
+  }
+
+  .company-menu {
+    margin-top: 2rem;
+  }
+
+  .connect-menu {
+    margin-top: 2rem;
+  }
+
+  /* FOOTER END */
+
+  /* HAMBURGUER MENU START */
+
+  .one,
+  .two,
+  .three {
+    background-color: #fff;
+    height: 5px;
+    width: 100%;
+    margin: 6px auto;
+    transition-duration: 0.3s;
+  }
+
+  .menu-toggle {
+    width: 40px;
+    height: 30px;
+    margin-right: 20px;
+    position: absolute;
+    right: 10px;
+    top: 45px;
+  }
+  .menu-responsive {
+    display: none;
+  }
+
+  .connect-menu-responsive {
+    display: none;
+  }
+
+  .menu-section.on {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+  }
+
+  .menu-section.on .menu-toggle {
+    position: absolute;
+    right: 0;
+    top: 42px;
+  }
+
+  .menu-section.on .menu-toggle .one {
+    transform: rotate(45deg) translate(7px, 7px);
+  }
+
+  .menu-section.on .menu-toggle .two {
+    opacity: 0;
+  }
+
+  .menu-section.on .menu-toggle .three {
+    transform: rotate(-45deg) translate(8px, -9px);
+  }
+
+  /* HAMBUGUER MENU END */
+
+  /* MENU RESPONSIVE START */
+
+  .menu-responsive {
+    width: 90%;
+    height: 70%;
+    background-color: rgb(239, 238, 238);
+    border: none;
+    border-radius: 0.3rem;
+    padding: 5rem;
+    margin: 7rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .menu-responsive a {
+    margin: 1rem 0;
+    text-decoration: none;
+    color: hsl(240, 10%, 16%);
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  .menu-responsive hr {
+    width: 120%;
+    color: grey;
+    margin: 2rem 0;
+  }
+
+  .menu-responsive a > img {
+    width: 0.7rem;
+    margin-left: 0.5rem;
+  }
+
+  .menu-responsive button {
+    color: #fff;
+    width: 75%;
+    padding: 1rem;
+    border: none;
+    border-radius: 2rem;
+    background: linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .menu-responsive .connect-menu-responsive {
+    width: 80%;
+    height: 0%;
+    background-color: #fff;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 5rem;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .menu-responsive .connect-menu-responsive a {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  #arrowUpMobile {
+    transform: rotate(180deg);
+    display: none;
+    position: absolute;
+    left: 14.3rem;
+    bottom: 35.5rem;
+  }
+
+  #arrowDownMobile {
+    position: absolute;
+    left: 14.4rem;
+    bottom: 30.5rem;
+  }
+}
